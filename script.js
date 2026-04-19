@@ -1,5 +1,20 @@
 function validateForm() {
 
+document.getElementById("nameError").innerHTML = "";
+document.getElementById("bdayError").innerHTML = "";
+document.getElementById("sexError").innerHTML = "";
+
+  
+document.getElementById("emailError").innerHTML = "";
+document.getElementById("userError").innerHTML = "";
+  
+document.getElementById("passError").innerHTML = "";   
+document.getElementById("cpassError").innerHTML = "";
+document.getElementById("topicError").innerHTML = "";
+document.getElementById("checkError").innerHTML = "";
+document.getElementById("levelError").innerHTML = "";
+document.getElementById("successMsg").innerHTML = "";
+
   let isValid = true;
 
   let name = document.getElementById("fullname").value.trim();
